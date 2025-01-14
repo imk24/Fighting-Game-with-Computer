@@ -104,7 +104,7 @@ def game_play():
                     print("Very Close Move Missed", user_damage, "Damage Done", hp_comp, "HP Remaining, End Turn")
         Tru = True
         if hp_comp <= 0:
-            return ("You Won")
+            return print("You Won")
 #Computer Move
         if Tru == True:
             if d_comp - d_user >= 2:
@@ -205,7 +205,7 @@ def game_play():
                         print(d_comp - d_user, "Computer distance dash_b, very close")
       
         if hp_user <= 0:
-            return ("You Won")
+            return print("You Lost")
                                 
         print("[User Hp]", hp_user, "[User Dist]", d_user, "[Computer Hp]", hp_comp, "[Computer Dist]", d_comp)
         
